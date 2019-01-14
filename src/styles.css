@@ -1,0 +1,89 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Helvetica";
+}
+
+h3 {
+  color: #27044a;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.input-row input {
+  margin-left: 12px;
+  margin-right: 8px;
+  flex: 1;
+}
+
+.button {
+  background-color: #51e3a4;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 100%;
+}
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 350px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(122, 122, 122, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(122, 122, 122, 1);
+  box-shadow: 0px 0px 20px 0px rgba(122, 122, 122, 1);
+}
+
+.date-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-summary {
+  display: flex;
+  align-items: center;
+}
+
+.date-summary small {
+  font-size: 11px;
+}
+
+.date-int {
+  font-size: 30px;
+}
+
+.month-year-small {
+  line-height: 0.8;
+  margin-left: 2px;
+  margin-bottom: 3px;
+}
+
+.list-item {
+  margin-bottom: 12px;
+}
+
+.list-item a {
+  margin-left: 10px;
+  cursor: pointer;
+  color: red;
+}
+
+.list-item a img.tick {
+  width: 18px;
+}
+
+.list-item a img.close {
+  width: 10px;
+}
